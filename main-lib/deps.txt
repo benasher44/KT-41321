@@ -1,0 +1,1476 @@
+Starting a Gradle Daemon, 2 incompatible and 1 stopped Daemons could not be reused, use --status for details
+
+> Configure project :
+Kotlin Multiplatform Projects are an Alpha feature.
+
+> Task :dependencies
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+_internal_aapt2_binary - The AAPT2 binary to use for processing resources.
+\--- com.android.tools.build:aapt2:3.6.4-6197926 FAILED
+
+android-debugApiElements (n)
+No dependencies
+
+android-debugRuntimeElements (n)
+No dependencies
+
+android-releaseApiElements (n)
+No dependencies
+
+android-releaseRuntimeElements (n)
+No dependencies
+
+androidAndroidTestApi (n)
+No dependencies
+
+androidAndroidTestApiDependenciesMetadata
+No dependencies
+
+androidAndroidTestCompileOnly (n)
+No dependencies
+
+androidAndroidTestCompileOnlyDependenciesMetadata
+No dependencies
+
+androidAndroidTestDebugApi (n)
+No dependencies
+
+androidAndroidTestDebugApiDependenciesMetadata
+No dependencies
+
+androidAndroidTestDebugCompileOnly (n)
+No dependencies
+
+androidAndroidTestDebugCompileOnlyDependenciesMetadata
+No dependencies
+
+androidAndroidTestDebugImplementation (n)
+No dependencies
+
+androidAndroidTestDebugImplementationDependenciesMetadata
+No dependencies
+
+androidAndroidTestDebugRuntimeOnly (n)
+No dependencies
+
+androidAndroidTestDebugRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidAndroidTestImplementation (n)
+No dependencies
+
+androidAndroidTestImplementationDependenciesMetadata
+No dependencies
+
+androidAndroidTestRuntimeOnly (n)
+No dependencies
+
+androidAndroidTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidApis - Configuration providing various types of Android JAR file
+No dependencies
+
+androidDebugAndroidTestApi - API dependencies for compilation 'debugAndroidTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidDebugAndroidTestApiDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidDebugAndroidTestCompile - Dependencies for compilation 'debugAndroidTest' (target android (androidJvm)) (deprecated, use 'androidDebugAndroidTestImplementation ' instead).
+No dependencies
+
+androidDebugAndroidTestCompileClasspath - Compile classpath for compilation 'debugAndroidTest' (target android (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidDebugAndroidTestCompileOnly - Compile only dependencies for compilation 'debugAndroidTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidDebugAndroidTestCompileOnlyDependenciesMetadata
+No dependencies
+
+androidDebugAndroidTestImplementation - Implementation only dependencies for compilation 'debugAndroidTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidDebugAndroidTestImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidDebugAndroidTestRuntime - Runtime dependencies for compilation 'debugAndroidTest' (target android (androidJvm)) (deprecated, use 'androidDebugAndroidTestRuntimeOnly ' instead).
+No dependencies
+
+androidDebugAndroidTestRuntimeClasspath - Runtime classpath of compilation 'debugAndroidTest' (target android (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidDebugAndroidTestRuntimeOnly - Runtime only dependencies for compilation 'debugAndroidTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidDebugAndroidTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidDebugApi - API dependencies for compilation 'debug' (target android (androidJvm)). (n)
+No dependencies
+
+androidDebugApiDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidDebugArchives (n)
+No dependencies
+
+androidDebugCompile - Dependencies for compilation 'debug' (target android (androidJvm)) (deprecated, use 'androidDebugImplementation ' instead).
+No dependencies
+
+androidDebugCompileClasspath - Compile classpath for compilation 'debug' (target android (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+          +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidDebugCompileOnly - Compile only dependencies for compilation 'debug' (target android (androidJvm)).
+No dependencies
+
+androidDebugCompileOnlyDependenciesMetadata
+No dependencies
+
+androidDebugImplementation - Implementation only dependencies for compilation 'debug' (target android (androidJvm)). (n)
+No dependencies
+
+androidDebugImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-metadata:1.0.0-RC
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidDebugRuntime - Runtime dependencies for compilation 'debug' (target android (androidJvm)) (deprecated, use 'androidDebugRuntimeOnly ' instead).
+No dependencies
+
+androidDebugRuntimeClasspath - Runtime classpath of compilation 'debug' (target android (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+          +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidDebugRuntimeOnly - Runtime only dependencies for compilation 'debug' (target android (androidJvm)). (n)
+No dependencies
+
+androidDebugRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidDebugSourceArtifacts (n)
+No dependencies
+
+androidDebugUnitTestApi - API dependencies for compilation 'debugUnitTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidDebugUnitTestApiDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidDebugUnitTestCompile - Dependencies for compilation 'debugUnitTest' (target android (androidJvm)) (deprecated, use 'androidDebugUnitTestImplementation ' instead).
+No dependencies
+
+androidDebugUnitTestCompileClasspath - Compile classpath for compilation 'debugUnitTest' (target android (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |         \--- org.jetbrains:annotations:13.0
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
+
+androidDebugUnitTestCompileOnly - Compile only dependencies for compilation 'debugUnitTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidDebugUnitTestCompileOnlyDependenciesMetadata
+No dependencies
+
+androidDebugUnitTestImplementation - Implementation only dependencies for compilation 'debugUnitTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidDebugUnitTestImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |         \--- org.jetbrains:annotations:13.0
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
+
+androidDebugUnitTestRuntime - Runtime dependencies for compilation 'debugUnitTest' (target android (androidJvm)) (deprecated, use 'androidDebugUnitTestRuntimeOnly ' instead).
+No dependencies
+
+androidDebugUnitTestRuntimeClasspath - Runtime classpath of compilation 'debugUnitTest' (target android (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |         \--- org.jetbrains:annotations:13.0
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
+
+androidDebugUnitTestRuntimeOnly - Runtime only dependencies for compilation 'debugUnitTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidDebugUnitTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidMainApi (n)
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0 (n)
+
+androidMainApiDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+     +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+     |    \--- org.jetbrains:annotations:13.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+          \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+
+androidMainCompileOnly (n)
+No dependencies
+
+androidMainCompileOnlyDependenciesMetadata
+No dependencies
+
+androidMainImplementation (n)
+No dependencies
+
+androidMainImplementationDependenciesMetadata
+No dependencies
+
+androidMainRuntimeOnly (n)
+No dependencies
+
+androidMainRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidReleaseApi - API dependencies for compilation 'release' (target android (androidJvm)). (n)
+No dependencies
+
+androidReleaseApiDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidReleaseArchives (n)
+No dependencies
+
+androidReleaseCompile - Dependencies for compilation 'release' (target android (androidJvm)) (deprecated, use 'androidReleaseImplementation ' instead).
+No dependencies
+
+androidReleaseCompileClasspath - Compile classpath for compilation 'release' (target android (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+          +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidReleaseCompileOnly - Compile only dependencies for compilation 'release' (target android (androidJvm)).
+No dependencies
+
+androidReleaseCompileOnlyDependenciesMetadata
+No dependencies
+
+androidReleaseImplementation - Implementation only dependencies for compilation 'release' (target android (androidJvm)). (n)
+No dependencies
+
+androidReleaseImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-metadata:1.0.0-RC
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidReleaseRuntime - Runtime dependencies for compilation 'release' (target android (androidJvm)) (deprecated, use 'androidReleaseRuntimeOnly ' instead).
+No dependencies
+
+androidReleaseRuntimeClasspath - Runtime classpath of compilation 'release' (target android (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+          +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidReleaseRuntimeOnly - Runtime only dependencies for compilation 'release' (target android (androidJvm)). (n)
+No dependencies
+
+androidReleaseRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidReleaseSourceArtifacts (n)
+No dependencies
+
+androidReleaseUnitTestApi - API dependencies for compilation 'releaseUnitTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidReleaseUnitTestApiDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidReleaseUnitTestCompile - Dependencies for compilation 'releaseUnitTest' (target android (androidJvm)) (deprecated, use 'androidReleaseUnitTestImplementation ' instead).
+No dependencies
+
+androidReleaseUnitTestCompileClasspath - Compile classpath for compilation 'releaseUnitTest' (target android (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |         \--- org.jetbrains:annotations:13.0
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
+
+androidReleaseUnitTestCompileOnly - Compile only dependencies for compilation 'releaseUnitTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidReleaseUnitTestCompileOnlyDependenciesMetadata
+No dependencies
+
+androidReleaseUnitTestImplementation - Implementation only dependencies for compilation 'releaseUnitTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidReleaseUnitTestImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |         \--- org.jetbrains:annotations:13.0
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
+
+androidReleaseUnitTestRuntime - Runtime dependencies for compilation 'releaseUnitTest' (target android (androidJvm)) (deprecated, use 'androidReleaseUnitTestRuntimeOnly ' instead).
+No dependencies
+
+androidReleaseUnitTestRuntimeClasspath - Runtime classpath of compilation 'releaseUnitTest' (target android (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |         \--- org.jetbrains:annotations:13.0
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
+
+androidReleaseUnitTestRuntimeOnly - Runtime only dependencies for compilation 'releaseUnitTest' (target android (androidJvm)). (n)
+No dependencies
+
+androidReleaseUnitTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidTestAnnotationProcessor - Classpath for the annotation processor for 'androidTest'. (n)
+No dependencies
+
+androidTestApi - API dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestApiDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidTestCompile - Compile dependencies for 'androidTest' sources (deprecated: use 'androidTestImplementation' instead). (n)
+No dependencies
+
+androidTestCompileOnly - Compile only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestCompileOnlyDependenciesMetadata
+No dependencies
+
+androidTestDebugAnnotationProcessor - Classpath for the annotation processor for 'androidTestDebug'. (n)
+No dependencies
+
+androidTestDebugApi - API dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugApiDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidTestDebugCompile - Compile dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugImplementation' instead). (n)
+No dependencies
+
+androidTestDebugCompileOnly - Compile only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugCompileOnlyDependenciesMetadata
+No dependencies
+
+androidTestDebugImplementation - Implementation only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+androidTestDebugProvided - Provided dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugCompileOnly' instead). (n)
+No dependencies
+
+androidTestDebugPublish - Publish dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestDebugRuntimeOnly - Runtime only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidTestDebugWearApp - Link to a wear app to embed for object 'androidTestDebug'. (n)
+No dependencies
+
+androidTestImplementation - Implementation only dependencies for 'androidTest' sources. (n)
+\--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0 (n)
+
+androidTestImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |         \--- org.jetbrains:annotations:13.0
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
+
+androidTestProvided - Provided dependencies for 'androidTest' sources (deprecated: use 'androidTestCompileOnly' instead). (n)
+No dependencies
+
+androidTestPublish - Publish dependencies for 'androidTest' sources (deprecated: use 'androidTestRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestReleaseApi (n)
+No dependencies
+
+androidTestReleaseApiDependenciesMetadata
+No dependencies
+
+androidTestReleaseCompileOnly (n)
+No dependencies
+
+androidTestReleaseCompileOnlyDependenciesMetadata
+No dependencies
+
+androidTestReleaseImplementation (n)
+No dependencies
+
+androidTestReleaseImplementationDependenciesMetadata
+No dependencies
+
+androidTestReleaseRuntimeOnly (n)
+No dependencies
+
+androidTestReleaseRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidTestRuntimeOnly - Runtime only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidTestUtil - Additional APKs used during instrumentation testing.
+No dependencies
+
+androidTestWearApp - Link to a wear app to embed for object 'androidTest'. (n)
+No dependencies
+
+annotationProcessor - Classpath for the annotation processor for 'main'. (n)
+No dependencies
+
+api - API dependencies for 'main' sources. (n)
+No dependencies
+
+archives - Configuration for archive artifacts. (n)
+No dependencies
+
+commonMainApi (n)
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0 (n)
+
+commonMainApiDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+commonMainCompileOnly (n)
+No dependencies
+
+commonMainCompileOnlyDependenciesMetadata
+No dependencies
+
+commonMainImplementation (n)
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC (n)
+
+commonMainImplementationDependenciesMetadata
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-metadata:1.0.0-RC
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+commonMainRuntimeOnly (n)
+No dependencies
+
+commonMainRuntimeOnlyDependenciesMetadata
+No dependencies
+
+commonTestApi (n)
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0 (n)
+
+commonTestApiDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+commonTestCompileOnly (n)
+No dependencies
+
+commonTestCompileOnlyDependenciesMetadata
+No dependencies
+
+commonTestImplementation (n)
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (n)
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (n)
+
+commonTestImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+commonTestRuntimeOnly (n)
+No dependencies
+
+commonTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+compile - Compile dependencies for 'main' sources (deprecated: use 'implementation' instead).
+No dependencies
+
+compileOnly - Compile only dependencies for 'main' sources. (n)
+No dependencies
+
+debugAllApiPublication - All API publication for debug (n)
+No dependencies
+
+debugAllRuntimePublication - All runtime publication for debug (n)
+No dependencies
+
+debugAndroidTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debugAndroidTest
+No dependencies
+
+debugAndroidTestCompileClasspath - Resolved configuration for compilation for variant: debugAndroidTest
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test-junit:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test-annotations-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
++--- org.jetbrains.kotlin:kotlin-stdlib:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test:{strictly 1.4.0} -> 1.4.0 (c)
++--- junit:junit:{strictly 4.12} -> 4.12 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
++--- org.jetbrains:annotations:{strictly 13.0} -> 13.0 (c)
+\--- org.hamcrest:hamcrest-core:{strictly 1.3} -> 1.3 (c)
+
+debugAndroidTestRuntimeClasspath - Resolved configuration for runtime for variant: debugAndroidTest
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
++--- org.jetbrains.kotlin:kotlin-stdlib:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
+\--- org.jetbrains:annotations:{strictly 13.0} -> 13.0 (c)
+
+debugAnnotationProcessor - Classpath for the annotation processor for 'debug'. (n)
+No dependencies
+
+debugAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debug
+No dependencies
+
+debugApi - API dependencies for 'debug' sources. (n)
+No dependencies
+
+debugApiElements - API elements for debug (n)
+No dependencies
+
+debugApiPublication - API publication for debug (n)
+No dependencies
+
+debugCompile - Compile dependencies for 'debug' sources (deprecated: use 'debugImplementation' instead). (n)
+No dependencies
+
+debugCompileClasspath - Resolved configuration for compilation for variant: debug
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
++--- org.jetbrains.kotlin:kotlin-stdlib:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
+\--- org.jetbrains:annotations:{strictly 13.0} -> 13.0 (c)
+
+debugCompileOnly - Compile only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugImplementation - Implementation only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugProvided - Provided dependencies for 'debug' sources (deprecated: use 'debugCompileOnly' instead). (n)
+No dependencies
+
+debugPublish - Publish dependencies for 'debug' sources (deprecated: use 'debugRuntimeOnly' instead). (n)
+No dependencies
+
+debugRuntimeClasspath - Resolved configuration for runtime for variant: debug
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+          +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+debugRuntimeElements - Runtime elements for debug (n)
+No dependencies
+
+debugRuntimeOnly - Runtime only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugRuntimePublication - Runtime publication for debug (n)
+No dependencies
+
+debugUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debugUnitTest
+No dependencies
+
+debugUnitTestCompileClasspath - Resolved configuration for compilation for variant: debugUnitTest
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test-junit:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test-annotations-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
++--- org.jetbrains.kotlin:kotlin-stdlib:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test:{strictly 1.4.0} -> 1.4.0 (c)
++--- junit:junit:{strictly 4.12} -> 4.12 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
++--- org.jetbrains:annotations:{strictly 13.0} -> 13.0 (c)
+\--- org.hamcrest:hamcrest-core:{strictly 1.3} -> 1.3 (c)
+
+debugUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: debugUnitTest
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
+
+debugWearApp - Link to a wear app to embed for object 'debug'. (n)
+No dependencies
+
+default - Configuration for default artifacts. (n)
+No dependencies
+
+implementation - Implementation only dependencies for 'main' sources. (n)
+No dependencies
+
+iosArm64-api (n)
+No dependencies
+
+iosArm64Api - API dependencies for compilation 'main' (target iosArm64 (native)).
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosArm64ApiElements - API elements for main. (n)
+No dependencies
+
+iosArm64Compile - Dependencies for compilation 'main' (target iosArm64 (native)) (deprecated, use 'iosArm64Implementation ' instead).
+No dependencies
+
+iosArm64CompileKlibraries - Compile classpath for compilation 'main' (target iosArm64 (native)).
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-iosarm64:1.0.0-RC
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosArm64CompileOnly - Compile only dependencies for compilation 'main' (target iosArm64 (native)).
+No dependencies
+
+iosArm64DebugFrameworkExport - Dependenceis to be exported in framework debugFramework for target iosArm64
+No dependencies
+
+iosArm64Default
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC FAILED
+
+iosArm64Implementation - Implementation only dependencies for compilation 'main' (target iosArm64 (native)). (n)
+No dependencies
+
+iosArm64MainApi (n)
+No dependencies
+
+iosArm64MainApiDependenciesMetadata
+No dependencies
+
+iosArm64MainCompileOnly (n)
+No dependencies
+
+iosArm64MainCompileOnlyDependenciesMetadata
+No dependencies
+
+iosArm64MainImplementation (n)
+No dependencies
+
+iosArm64MainImplementationDependenciesMetadata
+No dependencies
+
+iosArm64MainRuntimeOnly (n)
+No dependencies
+
+iosArm64MainRuntimeOnlyDependenciesMetadata
+No dependencies
+
+iosArm64ReleaseFrameworkExport - Dependenceis to be exported in framework releaseFramework for target iosArm64
+No dependencies
+
+iosArm64RuntimeOnly
+No dependencies
+
+iosArm64SourceArtifacts (n)
+No dependencies
+
+iosArm64TestApi - API dependencies for compilation 'test' (target iosArm64 (native)).
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosArm64TestApiDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosArm64TestCompile - Dependencies for compilation 'test' (target iosArm64 (native)) (deprecated, use 'iosArm64TestImplementation ' instead).
+No dependencies
+
+iosArm64TestCompileKlibraries - Compile classpath for compilation 'test' (target iosArm64 (native)).
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-iosarm64:1.0.0-RC
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosArm64TestCompileOnly - Compile only dependencies for compilation 'test' (target iosArm64 (native)). (n)
+No dependencies
+
+iosArm64TestCompileOnlyDependenciesMetadata
+No dependencies
+
+iosArm64TestImplementation - Implementation only dependencies for compilation 'test' (target iosArm64 (native)). (n)
+No dependencies
+
+iosArm64TestImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-metadata:1.0.0-RC
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosArm64TestRuntimeOnly (n)
+No dependencies
+
+iosArm64TestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+iosMainApi (n)
+No dependencies
+
+iosMainApiDependenciesMetadata
+No dependencies
+
+iosMainCompileOnly (n)
+No dependencies
+
+iosMainCompileOnlyDependenciesMetadata
+No dependencies
+
+iosMainImplementation (n)
+No dependencies
+
+iosMainImplementationDependenciesMetadata
+No dependencies
+
+iosMainRuntimeOnly (n)
+No dependencies
+
+iosMainRuntimeOnlyDependenciesMetadata
+No dependencies
+
+iosTestApi (n)
+No dependencies
+
+iosTestApiDependenciesMetadata
+No dependencies
+
+iosTestCompileOnly (n)
+No dependencies
+
+iosTestCompileOnlyDependenciesMetadata
+No dependencies
+
+iosTestImplementation (n)
+No dependencies
+
+iosTestImplementationDependenciesMetadata
+No dependencies
+
+iosTestRuntimeOnly (n)
+No dependencies
+
+iosTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+iosX64-api (n)
+No dependencies
+
+iosX64Api - API dependencies for compilation 'main' (target iosX64 (native)).
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosX64ApiElements - API elements for main. (n)
+No dependencies
+
+iosX64Compile - Dependencies for compilation 'main' (target iosX64 (native)) (deprecated, use 'iosX64Implementation ' instead).
+No dependencies
+
+iosX64CompileKlibraries - Compile classpath for compilation 'main' (target iosX64 (native)).
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-iosx64:1.0.0-RC
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosX64CompileOnly - Compile only dependencies for compilation 'main' (target iosX64 (native)).
+No dependencies
+
+iosX64DebugFrameworkExport - Dependenceis to be exported in framework debugFramework for target iosX64
+No dependencies
+
+iosX64Default
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC FAILED
+
+iosX64Implementation - Implementation only dependencies for compilation 'main' (target iosX64 (native)). (n)
+No dependencies
+
+iosX64MainApi (n)
+No dependencies
+
+iosX64MainApiDependenciesMetadata
+No dependencies
+
+iosX64MainCompileOnly (n)
+No dependencies
+
+iosX64MainCompileOnlyDependenciesMetadata
+No dependencies
+
+iosX64MainImplementation (n)
+No dependencies
+
+iosX64MainImplementationDependenciesMetadata
+No dependencies
+
+iosX64MainRuntimeOnly (n)
+No dependencies
+
+iosX64MainRuntimeOnlyDependenciesMetadata
+No dependencies
+
+iosX64ReleaseFrameworkExport - Dependenceis to be exported in framework releaseFramework for target iosX64
+No dependencies
+
+iosX64RuntimeOnly
+No dependencies
+
+iosX64SourceArtifacts (n)
+No dependencies
+
+iosX64TestApi - API dependencies for compilation 'test' (target iosX64 (native)).
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosX64TestApiDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosX64TestCompile - Dependencies for compilation 'test' (target iosX64 (native)) (deprecated, use 'iosX64TestImplementation ' instead).
+No dependencies
+
+iosX64TestCompileKlibraries - Compile classpath for compilation 'test' (target iosX64 (native)).
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-iosx64:1.0.0-RC
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosX64TestCompileOnly - Compile only dependencies for compilation 'test' (target iosX64 (native)). (n)
+No dependencies
+
+iosX64TestCompileOnlyDependenciesMetadata
+No dependencies
+
+iosX64TestImplementation - Implementation only dependencies for compilation 'test' (target iosX64 (native)). (n)
+No dependencies
+
+iosX64TestImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-metadata:1.0.0-RC
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+iosX64TestRuntimeOnly (n)
+No dependencies
+
+iosX64TestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+kotlinCompilerClasspath
+\--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.4.0
+     +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+     |    \--- org.jetbrains:annotations:13.0
+     +--- org.jetbrains.kotlin:kotlin-script-runtime:1.4.0
+     +--- org.jetbrains.kotlin:kotlin-reflect:1.4.0
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+     +--- org.jetbrains.kotlin:kotlin-daemon-embeddable:1.4.0
+     \--- org.jetbrains.intellij.deps:trove4j:1.0.20181211
+
+kotlinCompilerPluginClasspath
++--- org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-scripting-common:1.4.0
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    |    |    \--- org.jetbrains:annotations:13.0
+|    |    |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.71 -> 1.4.0 (*)
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71 -> 1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-scripting-jvm:1.4.0
+|    |    |    +--- org.jetbrains.kotlin:kotlin-script-runtime:1.4.0
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-scripting-common:1.4.0 (*)
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|    |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-serialization:1.4.0
+     \--- org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.4.0
+          \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+
+kotlinKlibCommonizerClasspath
+\--- org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:1.4.0
+     +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+     |    \--- org.jetbrains:annotations:13.0
+     \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.4.0
+          +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+          +--- org.jetbrains.kotlin:kotlin-script-runtime:1.4.0
+          +--- org.jetbrains.kotlin:kotlin-reflect:1.4.0
+          |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+          +--- org.jetbrains.kotlin:kotlin-daemon-embeddable:1.4.0
+          \--- org.jetbrains.intellij.deps:trove4j:1.0.20181211
+
+kotlinNativeCompilerPluginClasspath
+\--- org.jetbrains.kotlin:kotlin-serialization-unshaded:1.4.0
+
+lintChecks - Configuration to apply external lint check jar
+No dependencies
+
+lintClassPath - The lint embedded classpath
+\--- com.android.tools.lint:lint-gradle:26.6.4 FAILED
+
+lintPublish - Configuration to publish external lint check jar
+No dependencies
+
+metadata-api (n)
+No dependencies
+
+metadataApi - API dependencies for compilation 'main' (target metadata (common)). (n)
+No dependencies
+
+metadataApiElements - API elements for main. (n)
+No dependencies
+
+metadataCompile - Dependencies for compilation 'main' (target metadata (common)) (deprecated, use 'metadataImplementation ' instead).
+No dependencies
+
+metadataCompileClasspath - Compile classpath for compilation 'main' (target metadata (common)).
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-metadata:1.0.0-RC
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+metadataCompileOnly - Compile only dependencies for compilation 'main' (target metadata (common)).
+No dependencies
+
+metadataDefault
+\--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+metadataImplementation - Implementation only dependencies for compilation 'main' (target metadata (common)). (n)
+No dependencies
+
+metadataRuntimeOnly
+No dependencies
+
+metadataSourceArtifacts (n)
+No dependencies
+
+provided - Provided dependencies for 'main' sources (deprecated: use 'compileOnly' instead). (n)
+No dependencies
+
+publish - Publish dependencies for 'main' sources (deprecated: use 'runtimeOnly' instead). (n)
+No dependencies
+
+releaseAllApiPublication - All API publication for release (n)
+No dependencies
+
+releaseAllRuntimePublication - All runtime publication for release (n)
+No dependencies
+
+releaseAnnotationProcessor - Classpath for the annotation processor for 'release'. (n)
+No dependencies
+
+releaseAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: release
+No dependencies
+
+releaseApi - API dependencies for 'release' sources. (n)
+No dependencies
+
+releaseApiElements - API elements for release (n)
+No dependencies
+
+releaseApiPublication - API publication for release (n)
+No dependencies
+
+releaseCompile - Compile dependencies for 'release' sources (deprecated: use 'releaseImplementation' instead). (n)
+No dependencies
+
+releaseCompileClasspath - Resolved configuration for compilation for variant: release
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
++--- org.jetbrains.kotlin:kotlin-stdlib:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
+\--- org.jetbrains:annotations:{strictly 13.0} -> 13.0 (c)
+
+releaseCompileOnly - Compile only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseImplementation - Implementation only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseProvided - Provided dependencies for 'release' sources (deprecated: use 'releaseCompileOnly' instead). (n)
+No dependencies
+
+releasePublish - Publish dependencies for 'release' sources (deprecated: use 'releaseRuntimeOnly' instead). (n)
+No dependencies
+
+releaseRuntimeClasspath - Resolved configuration for runtime for variant: release
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+\--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+     \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+          +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+          \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+
+releaseRuntimeElements - Runtime elements for release (n)
+No dependencies
+
+releaseRuntimeOnly - Runtime only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseRuntimePublication - Runtime publication for release (n)
+No dependencies
+
+releaseUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: releaseUnitTest
+No dependencies
+
+releaseUnitTestCompileClasspath - Resolved configuration for compilation for variant: releaseUnitTest
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test-junit:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test-annotations-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test-common:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
++--- org.jetbrains.kotlin:kotlin-stdlib:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:{strictly 1.4.0} -> 1.4.0 (c)
++--- org.jetbrains.kotlin:kotlin-test:{strictly 1.4.0} -> 1.4.0 (c)
++--- junit:junit:{strictly 4.12} -> 4.12 (c)
++--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:{strictly 1.0.0-RC} -> 1.0.0-RC (c)
++--- org.jetbrains:annotations:{strictly 13.0} -> 13.0 (c)
+\--- org.hamcrest:hamcrest-core:{strictly 1.3} -> 1.3 (c)
+
+releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: releaseUnitTest
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-test-junit:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    +--- org.jetbrains.kotlin:kotlin-test:1.4.0
+|    |    +--- org.jetbrains.kotlin:kotlin-test-common:1.4.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|    \--- junit:junit:4.12
+|         \--- org.hamcrest:hamcrest-core:1.3
++--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC
+|    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.0-RC
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 (*)
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0
++--- org.jetbrains.kotlin:kotlin-test-common:1.4.0 (*)
+\--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.0 (*)
+
+releaseWearApp - Link to a wear app to embed for object 'release'. (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for 'main' sources. (n)
+No dependencies
+
+testAnnotationProcessor - Classpath for the annotation processor for 'test'. (n)
+No dependencies
+
+testApi - API dependencies for 'test' sources. (n)
+No dependencies
+
+testCompile - Compile dependencies for 'test' sources (deprecated: use 'testImplementation' instead).
+No dependencies
+
+testCompileOnly - Compile only dependencies for 'test' sources. (n)
+No dependencies
+
+testDebugAnnotationProcessor - Classpath for the annotation processor for 'testDebug'. (n)
+No dependencies
+
+testDebugApi - API dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugCompile - Compile dependencies for 'testDebug' sources (deprecated: use 'testDebugImplementation' instead). (n)
+No dependencies
+
+testDebugCompileOnly - Compile only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugImplementation - Implementation only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugProvided - Provided dependencies for 'testDebug' sources (deprecated: use 'testDebugCompileOnly' instead). (n)
+No dependencies
+
+testDebugPublish - Publish dependencies for 'testDebug' sources (deprecated: use 'testDebugRuntimeOnly' instead). (n)
+No dependencies
+
+testDebugRuntimeOnly - Runtime only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugWearApp - Link to a wear app to embed for object 'testDebug'. (n)
+No dependencies
+
+testImplementation - Implementation only dependencies for 'test' sources. (n)
+No dependencies
+
+testProvided - Provided dependencies for 'test' sources (deprecated: use 'testCompileOnly' instead). (n)
+No dependencies
+
+testPublish - Publish dependencies for 'test' sources (deprecated: use 'testRuntimeOnly' instead). (n)
+No dependencies
+
+testReleaseAnnotationProcessor - Classpath for the annotation processor for 'testRelease'. (n)
+No dependencies
+
+testReleaseApi - API dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseCompile - Compile dependencies for 'testRelease' sources (deprecated: use 'testReleaseImplementation' instead). (n)
+No dependencies
+
+testReleaseCompileOnly - Compile only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseImplementation - Implementation only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseProvided - Provided dependencies for 'testRelease' sources (deprecated: use 'testReleaseCompileOnly' instead). (n)
+No dependencies
+
+testReleasePublish - Publish dependencies for 'testRelease' sources (deprecated: use 'testReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+testReleaseRuntimeOnly - Runtime only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseWearApp - Link to a wear app to embed for object 'testRelease'. (n)
+No dependencies
+
+testRuntimeOnly - Runtime only dependencies for 'test' sources. (n)
+No dependencies
+
+testWearApp - Link to a wear app to embed for object 'test'. (n)
+No dependencies
+
+wearApp - Link to a wear app to embed for object 'main'. (n)
+No dependencies
+
+(c) - dependency constraint
+(*) - dependencies omitted (listed previously)
+
+(n) - Not resolved (configuration is not meant to be resolved)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 13s
+1 actionable task: 1 executed
